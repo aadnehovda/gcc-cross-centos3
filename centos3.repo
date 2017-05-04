@@ -1,0 +1,13 @@
+[base-centos3]
+name=CentOS 3 - Base
+baseurl=http://vault.centos.org/3.9/os/x86_64/
+gpgcheck=1
+gpgkey=http://vault.centos.org/RPM-GPG-KEY-CentOS-3
+enabled=0
+
+[updates-centos3]
+name=CentOS 3 - Updates
+baseurl=http://vault.centos.org/3.9/updates/x86_64/
+gpgcheck=1
+gpgkey=http://vault.centos.org/RPM-GPG-KEY-CentOS-3
+enabled=0
